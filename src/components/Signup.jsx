@@ -65,7 +65,7 @@ export default function SignUp() {
       userName: data.get('userName'),
       password: data.get('password'),
     });
-    axios.post('http://localhost:8080/api/v1/member_signup',{
+    axios.post('https://merryl-investments-backend.onrender.com/api/v1/member_signup',{
         firstName: data.get('firstName'),
         lastName: data.get('lastName'),
         email: data.get('email'),
