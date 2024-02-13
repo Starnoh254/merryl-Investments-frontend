@@ -49,10 +49,18 @@ export default function SignIn() {
     if (reason === 'clickaway') {
       return;
     }
-
-    setSuccess(false);
-    setError(false)
-    navigate('/signup')
+    if (success){
+      setSuccess(false);
+      navigate('/home')
+      
+    }
+    else {
+      setError(false)
+    }
+    
+    
+    
+    
   };
   
   const handleSubmit = (event) => {
