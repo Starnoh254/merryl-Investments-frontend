@@ -10,7 +10,7 @@ function App() {
   return (
     <Router> {/* Use BrowserRouter as Router */}
       <Routes>
-        <Route path = "/signup" element={ <SignUp /> } />
+        <Route path = "/" element={ <SignUp /> } />
         <Route path = "/signin" element={ <SignIn /> } />
         <Route path = "/home" element = { <Home /> } />
       </Routes>
